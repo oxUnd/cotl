@@ -1,0 +1,126 @@
+<html>
+  <head>
+    <title>Home Page Demo</title>
+    <meta  http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style type="text/css">
+      /* float = left, why ? */
+      #container {
+        width: 550px;
+      }
+      #container .item {
+        padding: 0;
+        border: 0;
+        margin: 0;
+        height: 160px;
+        position: relative;
+      }
+      .item .disimg, .item .comimg {
+        width: 100px;
+        position: relative;
+        float: left;
+      }
+      .item .disimg {
+        height: 100px;
+        background-color: #0099CC;
+      }
+      .item .disimg img {
+        width: 90px;
+        height: 90px;
+        margin: 5px;
+      }
+      .item .comimg {
+        height: 60px;
+        background-color: #FFFFFF;
+      }
+      .item .disinfo, .item .cominfo {
+        width: 400px;
+        background-color: #EEEEEE;
+        position: relative;
+        float: left;
+      }
+      .item .disinfo {
+        height: 88px;
+        border: 2px solid #0099CC;
+        padding: 4px;
+      }
+      .item .cominfo {
+        height: 60px;
+        background-color: #FFFFFF;
+      }
+      .vl {
+        height: 100%;
+        width: 5px;
+        border: 1px solid #CCCCCC;
+        position: relative;
+        float: left;
+      }
+      .line {
+        width: 100%;
+        height: 20px;
+        line-height: 19px;
+        font-size: 0.7em;
+      }
+      .line img {
+        width: 15px;
+        height: 15px;
+        margin: 2.5px;
+        float: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div class="item">
+        <div class="disimg"><img src="01.png" /></div>
+        <div class="disinfo"></div>
+        <div class="comment">
+          <div class="comimg">
+            <div class="line"><img src="h.png" /><img src="h.png" /></div>
+            <div class="line"><img src="h.png" /><img src="h.png" /><img src="h.png" /></div>
+            <div class="line"><img src="h.png" /></div>
+          </div>
+          <div class="cominfo">
+            <div class="line">1. This is a test</div>
+            <div class="line">2. ^_^，这个也是可以的。</div>
+            <div class="line">3. 嗯，就是这个样子的。</div>
+          </div>
+          <div class="grade"></div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="disimg"><img src="02.png" /></div>
+        <div class="disinfo"></div>
+        <div class="comment">
+          <div class="comimg">
+            <div class="line"><img src="h.png" /><img src="h.png" /></div>
+            <div class="line"><img src="h.png" /><img src="h.png" /><img src="h.png" /></div>
+            <div class="line"><img src="h.png" /></div>
+          </div>
+          <div class="cominfo">
+            <div class="line">1. This is a test</div>
+            <div class="line">2. ^_^，这个也是可以的。</div>
+            <div class="line">3. 嗯，就是这个样子的。</div>
+          </div>
+          <div class="grade"></div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="disimg"><img src="03.jpg" /></div>
+        <div class="disinfo"></div>
+        <div class="comment">
+          <div class="comimg">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+          <div class="cominfo">
+            <div class="line">1. This is a test</div>
+            <div class="line">2. ^_^，这个也是可以的。</div>
+            <div class="line">3. 嗯，就是这个样子的。</div>
+          </div>
+          <div class="grade"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
